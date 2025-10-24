@@ -6,7 +6,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#0a0a23] text-white">
+    <footer className="bg-sky-800 text-white">
 
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -18,16 +18,16 @@ export default function Footer() {
               Experience luxury and comfort at its finest. Book your perfect stay with us and create unforgettable memories.
             </p>
             <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition">
+              <a href="#" className="w-10 h-10 bg-sky-950 rounded-full flex items-center justify-center hover:bg-blue-700 transition">
                 <FaFacebookF size={18} />
               </a>
-              <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition">
+              <a href="#" className="w-10 h-10 bg-sky-950 rounded-full flex items-center justify-center hover:bg-blue-700 transition">
                 <FaTwitter size={18} />
               </a>
-              <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition">
+              <a href="#" className="w-10 h-10 bg-sky-950 rounded-full flex items-center justify-center hover:bg-blue-700 transition">
                 <FaInstagram size={18} />
               </a>
-              <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition">
+              <a href="#" className="w-10 h-10 bg-sky-950 rounded-full flex items-center justify-center hover:bg-blue-700 transition">
                 <FaLinkedinIn size={18} />
               </a>
             </div>
@@ -43,8 +43,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/dashboard" className="text-gray-300 hover:text-blue-400 transition">
-                  Dashboard
+                <Link to="/reservations" className="text-gray-300 hover:text-blue-400 transition">
+                  Reservations
                 </Link>
               </li>
               <li>

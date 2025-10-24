@@ -253,7 +253,7 @@ export default function Home() {
                   <p className="text-gray-800 font-bold mb-2">${room.price} / night</p>
                   <Link
                     to={`/room/${room.id}`}
-                    className="block mt-2 text-blue-600 hover:text-blue-800 font-medium text-sm transition-colors"
+                    className="block mt-2 text-sky-700 hover:text-sky-950 font-bold text-sm transition-colors"
                   >
                     View Details →
                   </Link>
@@ -270,7 +270,7 @@ export default function Home() {
                 className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${
                   currentPage === 1
                     ? 'bg-gray-300 text-gray-600 cursor-not-allowed'
-                    : 'bg-blue-600 hover:bg-blue-700 text-white'
+                    : 'bg-sky-950 hover:bg-sky-800 text-white'
                 }`}
               >
                 Prev
@@ -282,8 +282,8 @@ export default function Home() {
                   onClick={() => handlePageChange(i + 1)}
                   className={`w-9 h-9 rounded-full font-semibold transition-all ${
                     currentPage === i + 1
-                      ? 'bg-blue-600 text-white shadow-md'
-                      : 'bg-white text-gray-700 border hover:bg-blue-50'
+                      ? 'bg-sky-950  text-white shadow-md'
+                      : 'bg-white text-gray-700 border hover:bg-sky-800'
                   }`}
                 >
                   {i + 1}
@@ -296,7 +296,7 @@ export default function Home() {
                 className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${
                   currentPage === totalPages
                     ? 'bg-gray-300 text-gray-600 cursor-not-allowed'
-                    : 'bg-blue-600 hover:bg-blue-700 text-white'
+                    : 'bg-sky-950 hover:bg-sky-800 text-white'
                 }`}
               >
                 Next

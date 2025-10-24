@@ -67,7 +67,7 @@ const Reservations = () => {
               key={res.id}
               className="relative bg-white shadow-lg rounded-xl p-5 border border-gray-200 flex flex-col transition-transform transform hover:-translate-y-1 hover:shadow-2xl"
             >
-              <span className="absolute top-3 right-3 bg-blue-600 text-white px-2 py-1 text-xs rounded-full font-semibold">
+              <span className="absolute top-3 right-3 bg-red-200 text-red-800 px-2 py-1 text-xs rounded-full font-semibold">
                 Booked
               </span>
 

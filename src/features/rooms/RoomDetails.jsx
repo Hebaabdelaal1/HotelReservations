@@ -111,7 +111,7 @@ export default function RoomDetails() {
     toast.success(`You successfully booked ${room.title}!`, {
       duration: 3000,
       position: "top-center",
-      style: { background: "#007bff", color: "white", fontWeight: "500" },
+      style: { background: "#0aa827ff", color: "white", fontWeight: "500" },
     });
 
     setTimeout(() => navigate("/reservations"), 2000);
@@ -198,7 +198,7 @@ export default function RoomDetails() {
           <button
             style={{
               ...styles.button,
-              background: room.available ? "#007bff" : "#6c757d",
+              background: room.available ? "#0c4d92ff" : "#6c757d",
               cursor: room.available ? "pointer" : "not-allowed",
               opacity: room.available ? 1 : 0.6,
             }}

@@ -51,10 +51,10 @@ export default function Navbar() {
   const redirectState = { state: { from: location.pathname } };
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#10103b] text-white shadow-md">
+    <nav className="sticky top-0 z-50 bg-sky-800 text-white shadow-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
-        <Link to="/" className="text-2xl font-bold tracking-wide hover:text-blue-400 transition">
-          Hotel
+        <Link to="/" className="text-2xl font-bold tracking-wide hover:text-sky-950 transition ">
+          Luxury Hotel
         </Link>
 
         {/* Search Bar - Desktop */}
